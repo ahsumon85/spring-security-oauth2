@@ -20,9 +20,9 @@ public class WelcomeController {
     private final String WELCOME_MESSAGE = "Welcome to authorization api! If you see this welcome message, be sure that authorization"
                 + " api is running successfully.";
     
-    @RequestMapping("/")
+   /* @RequestMapping("/")
     public String welcome() {
         return this.WELCOME_MESSAGE;
-    }
+    }*/
     
 }

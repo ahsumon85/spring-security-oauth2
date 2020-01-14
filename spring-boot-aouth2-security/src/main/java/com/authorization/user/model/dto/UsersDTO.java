@@ -12,7 +12,7 @@ import java.util.List;
  *
  *  @author Md. Zakir Hossain
  */
-public class UserDto {
+public class UsersDTO {
     
     private Long userId;
     private String username;

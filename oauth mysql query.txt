@@ -73,9 +73,9 @@ CREATE TABLE `oauth_refresh_token` (
   `authentication` mediumblob
 ) ;
 
-INSERT INTO `users` VALUES (1,1,'$2a$04$hrNmV0wlZCwe3rWDh/KQYugfPanR41X0AtL80Gqf92oZ1GWaYL6kC','zakir');
+INSERT INTO `users` VALUES (1,1,'$2a$10$saka92bw7Rx93DgVoq2NieOWMqaMfQevChvIiWYcjcU.13lFzMzYe','ahasan');
 
-INSERT INTO `user_roles` VALUES (1,'ROLE_ADMIN','zakir');
+INSERT INTO `user_roles` VALUES (1,'ROLE_ADMIN','ahasan');
 
 INSERT INTO `oauth_client_details` VALUES ('test-client','authorization-rest-api','$2a$04$Y0qOXMqO2CW1h0x8pdw5fOHqNoLNVXkhtqPFWd5XjNSxLdpPTr/n2','read,write','password,authorization_code,refresh_token,implicit',NULL,'USER',108000,2592000,NULL,NULL);
 

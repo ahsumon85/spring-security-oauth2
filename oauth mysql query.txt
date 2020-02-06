@@ -1,4 +1,4 @@
-* create database aouth2_test;
+* create database springdb;
 
 * DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
